@@ -4,8 +4,39 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc689d6522aaa07f802444c0cd43c98a",
+    "content-hash": "f725777d63d95c2d1844a1c11bfd4370",
     "packages": [
+        {
+            "name": "geodiv/squelettes",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JamesRezo/geodiv-skel.git",
+                "reference": "c467f4afc50cf53d3ff25735c64f4040a202b067"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JamesRezo/geodiv-skel/zipball/c467f4afc50cf53d3ff25735c64f4040a202b067",
+                "reference": "c467f4afc50cf53d3ff25735c64f4040a202b067",
+                "shasum": ""
+            },
+            "require": {
+                "spip/dist": "3.1.*"
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "brunob",
+                    "email": "bruno@eliaz.fr"
+                }
+            ],
+            "description": "Un squelette pour SPIP qui permet de mettre en place une galerie de médias géoréférencés",
+            "time": "2018-06-09T10:16:59+00:00"
+        },
         {
             "name": "spip/breves",
             "version": "1.3.14",
@@ -243,6 +274,33 @@
             "time": "2018-06-08T06:18:26+00:00"
         },
         {
+            "name": "spip/jquery_ui",
+            "version": "1.11.4",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/jquery_ui.git",
+                "reference": "ca77aa42e076166c595200905881afb3f74a3d5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/jquery_ui/spip-jquery_ui-1.11.4-29a507.zip",
+                "reference": "ca77aa42e076166c595200905881afb3f74a3d5f",
+                "shasum": "d69c775cba7ac7d35b5ddf205fd970d358534931"
+            },
+            "type": "spip-plugin",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Animations, effets et widgets jQuery",
+            "time": "2018-06-07T06:18:40+00:00"
+        },
+        {
             "name": "spip/medias",
             "version": "2.11.44",
             "source": {
@@ -406,6 +464,83 @@
             "time": "2018-05-27T18:41:07+00:00"
         },
         {
+            "name": "spipremix/date_inscription",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/date_inscription.git",
+                "reference": "41863b63b3e93ea3eec41a7498ae764a24d50718"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/date_inscription/zipball/41863b63b3e93ea3eec41a7498ae764a24d50718",
+                "reference": "41863b63b3e93ea3eec41a7498ae764a24d50718",
+                "shasum": ""
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "brunob",
+                    "email": "bruno@eliaz.fr"
+                }
+            ],
+            "description": "Une date d'inscription pour les auteurs",
+            "homepage": "https://contrib.spip.net/Date-d-inscription",
+            "keywords": [
+                "auteur",
+                "spip"
+            ],
+            "time": "2018-06-09T12:36:41+00:00"
+        },
+        {
+            "name": "spipremix/nuage",
+            "version": "4.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/nuage.git",
+                "reference": "856adf5be324a0cfafe0c0b3cb8290fb3f090dcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/nuage/zipball/856adf5be324a0cfafe0c0b3cb8290fb3f090dcf",
+                "reference": "856adf5be324a0cfafe0c0b3cb8290fb3f090dcf",
+                "shasum": ""
+            },
+            "require": {
+                "spipremix/bonux": "^3.4"
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "JamesRezo",
+                    "email": "james@rezo.net"
+                },
+                {
+                    "name": "Fil",
+                    "email": "fil@rezo.net"
+                },
+                {
+                    "name": "Booz",
+                    "email": "booz@rezo.net"
+                }
+            ],
+            "description": "Afficher les mots-clés en faisant varier la taille de la police",
+            "homepage": "https://contrib.spip.net/Nuage-de-mots-cles",
+            "keywords": [
+                "navigation",
+                "spip"
+            ],
+            "time": "2018-06-09T14:30:19+00:00"
+        },
+        {
             "name": "spipremix/polyhierarchy",
             "version": "3.6.9",
             "source": {
@@ -466,7 +601,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "geodiv/squelettes": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

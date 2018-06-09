@@ -12,10 +12,13 @@
         "spip/mots": "2.7.*",
         "spip/organiseur": "1.0.*",
         "spip/images": "1.2.*",
-        "spip/dist": "3.1.*",
+        "geodiv/squelettes": "@dev",
         "spipremix/zcore": "^2.6",
         "spipremix/polyhierarchy": "^3.6",
-        "spipremix/bonux": "^3.4"
+        "spipremix/bonux": "^3.4",
+        "spipremix/date_inscription": "^0.2.1",
+        "spipremix/nuage": "^4.0",
+        "spip/jquery_ui": "1.11.*"
     },
     "license": "GPL-3.0-or-later",
     "authors": [{
@@ -30,14 +33,22 @@
     },
     "extra": {
         "spip": {
-            "template": "spip/dist",
+            "template": "geodiv/squelettes",
             "extensions": [
                 "spip/mots",
                 "spip/organiseur",
                 "spip/images",
                 "spipremix/zcore",
                 "spipremix/polyhierarchy",
-                "spipremix/bonux"
+                "spipremix/bonux",
+                "spip/dist",
+                "spip/breves",
+                "spip/sites",
+                "spip/medias",
+                "spip/forum",
+                "spipremix/date_inscription",
+                "spipremix/nuage",
+                "spip/jquery_ui"
             ]
         }
     }
