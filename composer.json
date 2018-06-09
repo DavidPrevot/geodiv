@@ -1,0 +1,44 @@
+{
+    "name": "geodiv/geodiv",
+    "type": "project",
+    "repositories": [{
+        "type": "composer",
+        "url": "https://composer-spip.lerebooteux.fr"
+    }],
+    "require": {
+        "php": "^5.3 <7.2",
+        "spip/composer-installer": "^0.2",
+        "spip/cms": "3.1.*",
+        "spip/mots": "2.7.*",
+        "spip/organiseur": "1.0.*",
+        "spip/images": "1.2.*",
+        "spip/dist": "3.1.*",
+        "spipremix/zcore": "^2.6",
+        "spipremix/polyhierarchy": "^3.6",
+        "spipremix/bonux": "^3.4"
+    },
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+        "name": "Bruno Bergot",
+        "email": "bruno@eliaz.fr"
+    }],
+    "config": {
+        "preferred-install": "dist",
+        "platform": {
+            "php": "5.3.29"
+        }
+    },
+    "extra": {
+        "spip": {
+            "template": "spip/dist",
+            "extensions": [
+                "spip/mots",
+                "spip/organiseur",
+                "spip/images",
+                "spipremix/zcore",
+                "spipremix/polyhierarchy",
+                "spipremix/bonux"
+            ]
+        }
+    }
+}
