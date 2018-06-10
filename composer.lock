@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f725777d63d95c2d1844a1c11bfd4370",
+    "content-hash": "5cf3ee94a01a5c64f013bdb51d2aa83d",
     "packages": [
         {
             "name": "geodiv/squelettes",
@@ -497,6 +497,184 @@
             "time": "2018-06-09T12:36:41+00:00"
         },
         {
+            "name": "spipremix/gis",
+            "version": "4.44.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/gis.git",
+                "reference": "398654bfd752738637033a76f7e719d5a875d041"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/gis/zipball/398654bfd752738637033a76f7e719d5a875d041",
+                "reference": "398654bfd752738637033a76f7e719d5a875d041",
+                "shasum": ""
+            },
+            "require": {
+                "spipremix/saisies": "^2.25"
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Bergot",
+                    "email": "bruno@eliaz.fr"
+                },
+                {
+                    "name": "kent1",
+                    "email": "kent1@arscenic.info",
+                    "homepage": "http://www.kent1.info"
+                },
+                {
+                    "name": "Les Développements Durables",
+                    "homepage": "http://www.ldd.fr"
+                }
+            ],
+            "description": "Gestion des pages sans rubrique",
+            "homepage": "https://contrib.spip.net/4189",
+            "time": "2018-06-10T16:33:57+00:00"
+        },
+        {
+            "name": "spipremix/legendes",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/legendes.git",
+                "reference": "999d14d73fa295dfe8e721f12e76c50fc72ef5d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/legendes/zipball/999d14d73fa295dfe8e721f12e76c50fc72ef5d3",
+                "reference": "999d14d73fa295dfe8e721f12e76c50fc72ef5d3",
+                "shasum": ""
+            },
+            "require": {
+                "spip/jquery_ui": "1.11.*",
+                "spip/medias": "2.11.*",
+                "spipremix/saisies": "^2.25"
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Bergot",
+                    "email": "bruno@eliaz.fr"
+                }
+            ],
+            "description": "Légender ses photos",
+            "homepage": "https://contrib.spip.net/Legendes",
+            "time": "2018-06-10T13:11:10+00:00"
+        },
+        {
+            "name": "spipremix/menus",
+            "version": "1.6.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/menus.git",
+                "reference": "64360db5e1700a3c16e525b4f969b0dba0a2532d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/menus/zipball/64360db5e1700a3c16e525b4f969b0dba0a2532d",
+                "reference": "64360db5e1700a3c16e525b4f969b0dba0a2532d",
+                "shasum": ""
+            },
+            "require": {
+                "spipremix/saisies": "^2.25"
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "RastaPopoulos",
+                    "email": "rastapopoulos@spip.org"
+                },
+                {
+                    "name": "Les Développements Durables",
+                    "homepage": "http://www.ldd.fr"
+                }
+            ],
+            "description": "Élaborer des menus au moyen d’une interface conviviale",
+            "homepage": "https://contrib.spip.net/Menus-3139",
+            "time": "2018-06-10T17:19:28+00:00"
+        },
+        {
+            "name": "spipremix/mesfavoris",
+            "version": "2.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/mesfavoris.git",
+                "reference": "a952519f9cb7b3e5bdad15a02f7c4ffa5b112aa7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/mesfavoris/zipball/a952519f9cb7b3e5bdad15a02f7c4ffa5b112aa7",
+                "reference": "a952519f9cb7b3e5bdad15a02f7c4ffa5b112aa7",
+                "shasum": ""
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Sallou"
+                },
+                {
+                    "name": "Cédric Morin",
+                    "email": "cedric@yterium.net",
+                    "homepage": "http://www.yterium.net"
+                },
+                {
+                    "name": "Gilles Vincent",
+                    "email": "gilles.vincent@gmail.com",
+                    "homepage": "http://www.tech-nova.fr"
+                }
+            ],
+            "description": "Élaborer des menus au moyen d’une interface conviviale",
+            "homepage": "https://contrib.spip.net/Menus-3139",
+            "time": "2018-06-10T18:29:35+00:00"
+        },
+        {
+            "name": "spipremix/nospam",
+            "version": "1.5.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/nospam.git",
+                "reference": "a826a56ae8cd3d2beb9ad33ee4eaeca65af80dfe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/nospam/zipball/a826a56ae8cd3d2beb9ad33ee4eaeca65af80dfe",
+                "reference": "a826a56ae8cd3d2beb9ad33ee4eaeca65af80dfe",
+                "shasum": ""
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Cédric Morin",
+                    "email": "cedric@yterium.net"
+                }
+            ],
+            "description": "Limiter le risque de spams dans les forums",
+            "homepage": "https://contrib.spip.net/NoSPAM,1165",
+            "time": "2018-06-09T15:38:42+00:00"
+        },
+        {
             "name": "spipremix/nuage",
             "version": "4.0.7",
             "source": {
@@ -541,6 +719,35 @@
             "time": "2018-06-09T14:30:19+00:00"
         },
         {
+            "name": "spipremix/pages",
+            "version": "1.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/pages.git",
+                "reference": "c58961df861f5888f0eb749156a0e66226c1fc3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/pages/zipball/c58961df861f5888f0eb749156a0e66226c1fc3b",
+                "reference": "c58961df861f5888f0eb749156a0e66226c1fc3b",
+                "shasum": ""
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "RastaPopoulos",
+                    "email": "rastapopoulos@spip.org"
+                }
+            ],
+            "description": "Gestion des pages sans rubrique",
+            "homepage": "https://contrib.spip.net/Pages-uniques",
+            "time": "2018-06-10T14:28:21+00:00"
+        },
+        {
             "name": "spipremix/polyhierarchy",
             "version": "3.6.9",
             "source": {
@@ -568,6 +775,43 @@
             "description": "Rattacher un article ou une rubrique à plusieurs rubriques parentes",
             "homepage": "https://contrib.spip.net/Polyhierarchie",
             "time": "2018-05-27T16:50:51+00:00"
+        },
+        {
+            "name": "spipremix/saisies",
+            "version": "2.25.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/saisies.git",
+                "reference": "c0c83f33bbc5dc5dfe1e8d4112cd9768f3ea31e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/saisies/zipball/c0c83f33bbc5dc5dfe1e8d4112cd9768f3ea31e7",
+                "reference": "c0c83f33bbc5dc5dfe1e8d4112cd9768f3ea31e7",
+                "shasum": ""
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Matthieu Marcillaud",
+                    "email": "marcimat@rezo.net"
+                },
+                {
+                    "name": "RastaPopoulos",
+                    "email": "rastapopoulos@spip.org"
+                },
+                {
+                    "name": "Joseph Larmarange",
+                    "email": "joseph@larmarange.net"
+                }
+            ],
+            "description": "Générer et manipuler plus facilement les champs des formulaires",
+            "homepage": "https://contrib.spip.net/Saisies",
+            "time": "2018-06-10T12:44:34+00:00"
         },
         {
             "name": "spipremix/zcore",
