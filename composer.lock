@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5cf3ee94a01a5c64f013bdb51d2aa83d",
+    "content-hash": "bce1ce2653b063d425f2eaa22626a8d7",
     "packages": [
+        {
+            "name": "diogene/diogene",
+            "version": "1.9.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/diogene.git",
+                "reference": "95a388ff76c4b501d8fbb241fa32df2eb4ac504b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/diogene/zipball/95a388ff76c4b501d8fbb241fa32df2eb4ac504b",
+                "reference": "95a388ff76c4b501d8fbb241fa32df2eb4ac504b",
+                "shasum": ""
+            },
+            "require": {
+                "spip/images": ">=1.2",
+                "spip/mediabox": ">=1.0",
+                "spip/organiseur": ">=1.0",
+                "spipremix/saisies": "^2.25"
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Bergot",
+                    "email": "bruno@eliaz.fr"
+                },
+                {
+                    "name": "kent1",
+                    "email": "kent1@arscenic.info",
+                    "homepage": "http://www.kent1.info"
+                }
+            ],
+            "description": "Création de templates de formulaires pour les objets",
+            "homepage": "https://www.mediaspip.net/spip.php?article50",
+            "time": "2018-06-11T20:14:08+00:00"
+        },
         {
             "name": "geodiv/squelettes",
             "version": "dev-master",
@@ -36,6 +76,39 @@
             ],
             "description": "Un squelette pour SPIP qui permet de mettre en place une galerie de médias géoréférencés",
             "time": "2018-06-09T10:16:59+00:00"
+        },
+        {
+            "name": "mediaspip/player",
+            "version": "1.6.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/mediaspip_player.git",
+                "reference": "642e5f7e751165055b73979d89a6d2566934a80e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/mediaspip_player/zipball/642e5f7e751165055b73979d89a6d2566934a80e",
+                "reference": "642e5f7e751165055b73979d89a6d2566934a80e",
+                "shasum": ""
+            },
+            "require": {
+                "spip/medias": "^2.11"
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "kent1",
+                    "email": "kent1@arscenic.info",
+                    "homepage": "http://www.kent1.info"
+                }
+            ],
+            "description": "Lecteur multimédia HTML5 pour MediaSPIP",
+            "homepage": "https://player.mediaspip.net/documentation/",
+            "time": "2018-06-11T06:50:06+00:00"
         },
         {
             "name": "spip/breves",
@@ -299,6 +372,38 @@
             ],
             "description": "Animations, effets et widgets jQuery",
             "time": "2018-06-07T06:18:40+00:00"
+        },
+        {
+            "name": "spip/mediabox",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/mediabox.git",
+                "reference": "8900d9b4b55f6ea09f9e05afb930ffc46bc5468e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/mediabox/spip-mediabox-1.0.4-7d6104.zip",
+                "reference": "8900d9b4b55f6ea09f9e05afb930ffc46bc5468e",
+                "shasum": "d65fcfdfd4aec5107b94e3416b34063932756330"
+            },
+            "type": "spip-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Boîte multimédia",
+            "time": "2018-06-11T06:05:12+00:00"
         },
         {
             "name": "spip/medias",

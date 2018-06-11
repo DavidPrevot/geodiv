@@ -24,7 +24,10 @@
         "spipremix/pages": "^1.3",
         "spipremix/gis": "^4.44",
         "spipremix/menus": "^1.6",
-        "spipremix/mesfavoris": "^2.5"
+        "spipremix/mesfavoris": "^2.5",
+        "mediaspip/player": "^1.6",
+        "spip/mediabox": "1.0.*",
+        "diogene/diogene": "^1.9"
     },
     "license": "GPL-3.0-or-later",
     "authors": [{
@@ -61,7 +64,10 @@
                 "spipremix/pages",
                 "spipremix/gis",
                 "spipremix/menus",
-                "spipremix/mesfavoris"
+                "spipremix/mesfavoris",
+                "spip/mediabox",
+                "diogene/diogene",
+                "mediaspip/player"
             ]
         }
     }
