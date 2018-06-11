@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bce1ce2653b063d425f2eaa22626a8d7",
+    "content-hash": "64fdac77394dcf2c79317216df2cbe31",
     "packages": [
         {
             "name": "diogene/diogene",
@@ -78,6 +78,79 @@
             "time": "2018-06-09T10:16:59+00:00"
         },
         {
+            "name": "mediaspip/emballe_medias",
+            "version": "2.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/emballe_medias.git",
+                "reference": "f119302cf2cc8f2f604bb911079008c76d57cdb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/emballe_medias/zipball/f119302cf2cc8f2f604bb911079008c76d57cdb9",
+                "reference": "f119302cf2cc8f2f604bb911079008c76d57cdb9",
+                "shasum": ""
+            },
+            "require": {
+                "diogene/diogene": "^1.9",
+                "mediaspip/jquery_file_upload": "^5.16",
+                "mediaspip/swfupload": "^1.1",
+                "spip/medias": "2.11.*",
+                "spipremix/notifications": "^3.6",
+                "spipremix/saisies": "^2.25"
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Bergot",
+                    "email": "bruno@eliaz.fr"
+                },
+                {
+                    "name": "kent1",
+                    "email": "kent1@arscenic.info",
+                    "homepage": "http://www.kent1.info"
+                }
+            ],
+            "description": "Emballer ses documents proprement",
+            "time": "2018-06-13T06:50:46+00:00"
+        },
+        {
+            "name": "mediaspip/jquery_file_upload",
+            "version": "5.16.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/jquery_file_upload.git",
+                "reference": "eb1bc98f8648131cf3dfa5589c09afa272bd8aa1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/jquery_file_upload/zipball/eb1bc98f8648131cf3dfa5589c09afa272bd8aa1",
+                "reference": "eb1bc98f8648131cf3dfa5589c09afa272bd8aa1",
+                "shasum": ""
+            },
+            "require": {
+                "spip/jquery_ui": "^1.8"
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "kent1",
+                    "email": "kent1@arscenic.info",
+                    "homepage": "http://www.kent1.info"
+                }
+            ],
+            "description": "jQuery File Upload for SPIP",
+            "time": "2018-06-11T20:55:05+00:00"
+        },
+        {
             "name": "mediaspip/player",
             "version": "1.6.5",
             "source": {
@@ -109,6 +182,35 @@
             "description": "Lecteur multimédia HTML5 pour MediaSPIP",
             "homepage": "https://player.mediaspip.net/documentation/",
             "time": "2018-06-11T06:50:06+00:00"
+        },
+        {
+            "name": "mediaspip/swfupload",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/swfupload.git",
+                "reference": "fe0cf5f1e87af00381e7f320404fb98552dcb6e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/swfupload/zipball/fe0cf5f1e87af00381e7f320404fb98552dcb6e9",
+                "reference": "fe0cf5f1e87af00381e7f320404fb98552dcb6e9",
+                "shasum": ""
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kent1",
+                    "email": "kent1@arscenic.info",
+                    "homepage": "http://www.kent1.info"
+                }
+            ],
+            "description": "swfupload for SPIP",
+            "time": "2018-06-11T21:58:26+00:00"
         },
         {
             "name": "spip/breves",
@@ -602,6 +704,37 @@
             "time": "2018-06-09T12:36:41+00:00"
         },
         {
+            "name": "spipremix/facteur",
+            "version": "3.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/facteur.git",
+                "reference": "9cdca595d1f8f9a66c29e5c74e8666d81ebc65ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/facteur/zipball/9cdca595d1f8f9a66c29e5c74e8666d81ebc65ca",
+                "reference": "9cdca595d1f8f9a66c29e5c74e8666d81ebc65ca",
+                "shasum": ""
+            },
+            "provide": {
+                "phpmailer/phpmailer": "5.2.6"
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP"
+                }
+            ],
+            "description": "Il distribue votre courrier",
+            "homepage": "https://contrib.spip.net/Facteur",
+            "time": "2018-06-12T18:01:20+00:00"
+        },
+        {
             "name": "spipremix/gis",
             "version": "4.44.18",
             "source": {
@@ -778,6 +911,38 @@
             "description": "Limiter le risque de spams dans les forums",
             "homepage": "https://contrib.spip.net/NoSPAM,1165",
             "time": "2018-06-09T15:38:42+00:00"
+        },
+        {
+            "name": "spipremix/notifications",
+            "version": "3.6.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/notifications.git",
+                "reference": "abc7d61a96b0cb297b9277f3539c13215bf49a90"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/notifications/zipball/abc7d61a96b0cb297b9277f3539c13215bf49a90",
+                "reference": "abc7d61a96b0cb297b9277f3539c13215bf49a90",
+                "shasum": ""
+            },
+            "require": {
+                "spipremix/facteur": "^3.5"
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Fil",
+                    "email": "fil@rezo.net"
+                }
+            ],
+            "description": "Envoyer des mails quand les gens s’expriment dans le forum de l’espace privé, sous un article, ou dans la messagerie personnelle",
+            "homepage": "https://contrib.spip.net/Notifications",
+            "time": "2018-06-12T18:12:26+00:00"
         },
         {
             "name": "spipremix/nuage",

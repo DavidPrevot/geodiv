@@ -27,7 +27,8 @@
         "spipremix/mesfavoris": "^2.5",
         "mediaspip/player": "^1.6",
         "spip/mediabox": "1.0.*",
-        "diogene/diogene": "^1.9"
+        "diogene/diogene": "^1.9",
+        "mediaspip/emballe_medias": "^2.0"
     },
     "license": "GPL-3.0-or-later",
     "authors": [{
@@ -67,7 +68,11 @@
                 "spipremix/mesfavoris",
                 "spip/mediabox",
                 "diogene/diogene",
-                "mediaspip/player"
+                "mediaspip/player",
+                "mediaspip/jquery_file_upload",
+                "mediaspip/swfupload",
+                "spipremix/facteur",
+                "spipremix/notifications"
             ]
         }
     }
