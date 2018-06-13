@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64fdac77394dcf2c79317216df2cbe31",
+    "content-hash": "b6a9deb98c6257890e2b71e5af507da5",
     "packages": [
         {
             "name": "diogene/diogene",
@@ -48,7 +48,7 @@
         },
         {
             "name": "geodiv/squelettes",
-            "version": "dev-master",
+            "version": "1.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JamesRezo/geodiv-skel.git",
@@ -1115,9 +1115,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "geodiv/squelettes": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

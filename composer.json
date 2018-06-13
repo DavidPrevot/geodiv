@@ -12,7 +12,7 @@
         "spip/mots": "2.7.*",
         "spip/organiseur": "1.0.*",
         "spip/images": "1.2.*",
-        "geodiv/squelettes": "@dev",
+        "geodiv/squelettes": "^1.8",
         "spipremix/zcore": "^2.6",
         "spipremix/polyhierarchy": "^3.6",
         "spipremix/bonux": "^3.4",
