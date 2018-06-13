@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6a9deb98c6257890e2b71e5af507da5",
+    "content-hash": "da8058c23efed8f900fea307b2c7198a",
     "packages": [
         {
             "name": "diogene/diogene",
@@ -1119,7 +1119,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^5.3 <7.2"
+        "php": "5.3 - 7.1"
     },
     "platform-dev": [],
     "platform-overrides": {
