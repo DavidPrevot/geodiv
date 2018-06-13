@@ -72,7 +72,8 @@
                 "mediaspip/jquery_file_upload",
                 "mediaspip/swfupload",
                 "spipremix/facteur",
-                "spipremix/notifications"
+                "spipremix/notifications",
+                "mediaspip/emballe_medias"
             ]
         }
     }

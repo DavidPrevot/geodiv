@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da8058c23efed8f900fea307b2c7198a",
+    "content-hash": "182325509072cf4216395f639f636a1f",
     "packages": [
         {
             "name": "diogene/diogene",
