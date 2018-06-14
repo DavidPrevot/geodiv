@@ -28,7 +28,7 @@
         "mediaspip/player": "^1.6",
         "spip/mediabox": "1.0.*",
         "diogene/diogene": "^1.9",
-        "mediaspip/emballe_medias": "^2.0"
+        "mediaspip/emballe_medias": "^1.3"
     },
     "license": "GPL-3.0-or-later",
     "authors": [{

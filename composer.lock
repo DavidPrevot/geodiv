@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "182325509072cf4216395f639f636a1f",
+    "content-hash": "52c892254986b5e987691860b002f455",
     "packages": [
         {
             "name": "diogene/diogene",
@@ -79,16 +79,16 @@
         },
         {
             "name": "mediaspip/emballe_medias",
-            "version": "2.0.12",
+            "version": "1.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spipremix/emballe_medias.git",
-                "reference": "f119302cf2cc8f2f604bb911079008c76d57cdb9"
+                "reference": "49ebcf7eb399d3e683eb18220d323ccab3200c34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spipremix/emballe_medias/zipball/f119302cf2cc8f2f604bb911079008c76d57cdb9",
-                "reference": "f119302cf2cc8f2f604bb911079008c76d57cdb9",
+                "url": "https://api.github.com/repos/spipremix/emballe_medias/zipball/49ebcf7eb399d3e683eb18220d323ccab3200c34",
+                "reference": "49ebcf7eb399d3e683eb18220d323ccab3200c34",
                 "shasum": ""
             },
             "require": {
@@ -96,7 +96,6 @@
                 "mediaspip/jquery_file_upload": "^5.16",
                 "mediaspip/swfupload": "^1.1",
                 "spip/medias": "2.11.*",
-                "spipremix/notifications": "^3.6",
                 "spipremix/saisies": "^2.25"
             },
             "type": "spip-plugin",
@@ -116,7 +115,7 @@
                 }
             ],
             "description": "Emballer ses documents proprement",
-            "time": "2018-06-13T06:50:46+00:00"
+            "time": "2018-06-14T19:57:43+00:00"
         },
         {
             "name": "mediaspip/jquery_file_upload",
@@ -704,37 +703,6 @@
             "time": "2018-06-09T12:36:41+00:00"
         },
         {
-            "name": "spipremix/facteur",
-            "version": "3.5.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spipremix/facteur.git",
-                "reference": "9cdca595d1f8f9a66c29e5c74e8666d81ebc65ca"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spipremix/facteur/zipball/9cdca595d1f8f9a66c29e5c74e8666d81ebc65ca",
-                "reference": "9cdca595d1f8f9a66c29e5c74e8666d81ebc65ca",
-                "shasum": ""
-            },
-            "provide": {
-                "phpmailer/phpmailer": "5.2.6"
-            },
-            "type": "spip-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Collectif SPIP"
-                }
-            ],
-            "description": "Il distribue votre courrier",
-            "homepage": "https://contrib.spip.net/Facteur",
-            "time": "2018-06-12T18:01:20+00:00"
-        },
-        {
             "name": "spipremix/gis",
             "version": "4.44.18",
             "source": {
@@ -911,38 +879,6 @@
             "description": "Limiter le risque de spams dans les forums",
             "homepage": "https://contrib.spip.net/NoSPAM,1165",
             "time": "2018-06-09T15:38:42+00:00"
-        },
-        {
-            "name": "spipremix/notifications",
-            "version": "3.6.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spipremix/notifications.git",
-                "reference": "abc7d61a96b0cb297b9277f3539c13215bf49a90"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spipremix/notifications/zipball/abc7d61a96b0cb297b9277f3539c13215bf49a90",
-                "reference": "abc7d61a96b0cb297b9277f3539c13215bf49a90",
-                "shasum": ""
-            },
-            "require": {
-                "spipremix/facteur": "^3.5"
-            },
-            "type": "spip-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Fil",
-                    "email": "fil@rezo.net"
-                }
-            ],
-            "description": "Envoyer des mails quand les gens s’expriment dans le forum de l’espace privé, sous un article, ou dans la messagerie personnelle",
-            "homepage": "https://contrib.spip.net/Notifications",
-            "time": "2018-06-12T18:12:26+00:00"
         },
         {
             "name": "spipremix/nuage",
